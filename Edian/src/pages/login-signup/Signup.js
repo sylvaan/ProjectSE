@@ -1,10 +1,29 @@
 import React from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+  TextInput,
+} from 'react-native';
 
 const Signup = ({navigation}) => {
   return (
     <View>
-      <Text>Signup</Text>
+      <View>
+        <View>
+          <TextInput />
+        </View>
+        <View>
+          <TextInput />
+        </View>
+        <View>
+          <TextInput />
+        </View>
+        <View>
+          <TextInput />
+        </View>
+      </View>
       <TouchableOpacity onPress={() => navigation.navigate('Login')}>
         <Text>Log In</Text>
       </TouchableOpacity>
