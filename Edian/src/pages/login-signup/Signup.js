@@ -9,7 +9,7 @@ import {
 
 const Signup = ({navigation}) => {
   return (
-    <View>
+    <View style={styles.container}>
       <View>
         <View>
           <TextInput />
@@ -36,4 +36,10 @@ const Signup = ({navigation}) => {
 
 export default Signup;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#404040',
+    alignItems: 'center',
+    fontFamily: 'Montserrat',
+},});

@@ -45,9 +45,4 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     backgroundColor: '#F29F05',
   },
-  text: {
-    color: '#404040',
-    textAlign: 'center',
-    opacity: 0.6,
-  }
 });
