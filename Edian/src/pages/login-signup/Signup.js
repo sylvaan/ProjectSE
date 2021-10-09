@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   input: {
     marginVertical: 10,
     paddingHorizontal: 60,
-    borderRadius: 25,
+    borderRadius: 10,
     backgroundColor: '#FFFFFF',
   },
   ti: {
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     marginVertical: 15,
     paddingVertical: 15,
     paddingHorizontal: 80,
-    borderRadius: 25,
+    borderRadius: 10,
     backgroundColor: '#F29F05',
   },
 });
