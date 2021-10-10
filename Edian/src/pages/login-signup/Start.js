@@ -5,7 +5,7 @@ const Start = ({navigation}) => {
   return (
     <View style={styles.container}>
       <View style={styles.logoContainer}>
-        <Image source={require('../../assets/Edianlogo.png')} />
+        <Image source={require('../../assets/Edian.png')} />
       </View>
       <View style={styles.buttonContainer}>
         <TouchableOpacity
@@ -33,16 +33,16 @@ const styles = StyleSheet.create({
     fontFamily: 'Montserrat',
   },
   logoContainer: {
-    marginTop: 125,
+    marginTop: 120,
   },
   buttonContainer: {
-    top: 80,
+    top: 100,
   },
   button: {
     marginVertical: 15,
     paddingVertical: 15,
-    paddingHorizontal: 80,
-    borderRadius: 25,
+    paddingHorizontal: 30,
+    borderRadius: 10,
     backgroundColor: '#F29F05',
   },
 });
