@@ -25,7 +25,6 @@ const Stack = createStackNavigator();
 
 const Navigator = () => {
   return (
-    <NavigationContainer>
       <Stack.Navigator headerMode={false}>
       <Stack.Screen name="Start" component={Start} />
       <Stack.Screen name="Signup" component={Signup} />
@@ -49,7 +48,6 @@ const Navigator = () => {
       <Stack.Screen name="ConfirmCheckout" component={ConfirmCheckout} />
       <Stack.Screen name="Checkout" component={Checkout} />
     </Stack.Navigator>
-    </NavigationContainer>
   );
 };
 
