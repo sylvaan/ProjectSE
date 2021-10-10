@@ -12,7 +12,7 @@ const Login = ({navigation}) => {
   return (
     <View style={styles.container}>
       <View style={styles.logoContainer}>
-        <Image source={require('../../assets/Edianlogo.png')} />
+        <Image source={require('../../assets/Edian.png')} />
       </View>
       <View style={styles.inputContainer}>
         <View style={styles.input}>
